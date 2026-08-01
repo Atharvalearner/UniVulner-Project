@@ -1,0 +1,11 @@
+The primary requirement of my project is fast vulnerability search and analytics rather than transactional data processing. That's why I chose OpenSearch instead of a traditional relational database.
+
+Step 1: After collecting and normalizing vulnerability data, every CVE is indexed as a document in OpenSearch.
+
+Step 2: OpenSearch creates an inverted index, which makes full-text searches on CVE IDs, descriptions, vendors, products, and references very fast.
+
+Step 3: When a user searches for a vulnerability, OpenSearch searches the index instead of scanning the entire dataset, resulting in low-latency responses.
+
+Step 4: OpenSearch also supports filtering, aggregations, and analytics, which are useful for dashboards such as severity distribution, vendor-wise vulnerabilities, and exploit statistics.
+
+

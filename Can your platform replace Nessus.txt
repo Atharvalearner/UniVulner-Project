@@ -1,0 +1,1 @@
+No. My platform is not a vulnerability scanner. It complements scanners. A scanner discovers vulnerabilities in an organization's assets, while my platform enriches and prioritizes vulnerability intelligence to support better remediation decisions.

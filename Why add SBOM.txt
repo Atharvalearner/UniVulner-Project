@@ -1,0 +1,3 @@
+Threat intelligence tells us which vulnerabilities exist globally. 
+
+An SBOM tells us what software an organization actually uses. Correlating the two lets us identify which vulnerabilities affect that organization and prioritize remediation

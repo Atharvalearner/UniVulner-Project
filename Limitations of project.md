@@ -1,0 +1,2 @@
+The main limitations are that the platform depends on public threat intelligence sources, the current risk scoring is rule-based, SBOM correlation is based on known component versions without deeper reachability analysis, and the deployment is currently designed for a single EC2 instance using Docker Compose. These limitations can be addressed by adding contextual risk scoring, Kubernetes-based deployment, and integration with enterprise remediation tools.
+

@@ -1,0 +1,24 @@
+CVE ID (Common Vulnerabilities and Exposures)
+Description
+CVSS Score (Common Vulnerability Scoring System)
+Severity
+CWE (Common Weakness Enumeration)
+Affected Products
+Affected Version Ranges
+EPSS Score (Exploit Prediction Scoring System)
+KEV Status (Known Exploited Vulnerabilities)
+Public Exploits
+GitHub Proof-of-Concept repositories
+Threat Score
+
+# Multiple threat intelligence sources:
+| --------- | --------------------------------------------------------- |
+| Source    | What it tells you                                         |
+| --------- | --------------------------------------------------------- |
+| MITRE     | What is the vulnerability?                                |
+| NVD       | How severe is it?                                         |
+| EPSS      | How likely is it to be exploited?                         |
+| CISA KEV  | Is it already being exploited?                            |
+| ExploitDB | Is public exploit code available?                         |
+| GitHub    | Are researchers sharing PoCs, exploit tools, or scanners? |
+| --------- | --------------------------------------------------------- |

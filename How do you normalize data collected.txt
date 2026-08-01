@@ -1,0 +1,21 @@
+The different vulnerability sources such as MITRE, NVD, EPSS, CISA KEV, ExploitDB, and GitHub all provide different data structures, APIs, and metadata. Instead of allowing the rest of the application to work with these different formats directly, I introduced a Normalization Layer.
+
+The responsibility of this layer is to convert data from each source into a common internal data model called VulnerabilityRecord.
+
+This provides a consistent structure for storage, searching, enrichment, and software inventory correlation, regardless of where the vulnerability information originated.
+
+
+# Diagrammatic Representation:
+
+           External Sources
+MITRE   NVD   EPSS   KEV   ExploitDB   GitHub
+  ▼     ▼     ▼     ▼       ▼         ▼
+Collectors (Fetch Raw Data)
+                ▼
+Normalizers (Map to Common Schema)
+                ▼
+        VulnerabilityRecord
+                ▼
+           OpenSearch Index
+                ▼
+Search │ Correlation │ Reports │ APIs

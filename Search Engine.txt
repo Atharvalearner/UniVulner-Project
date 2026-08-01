@@ -1,0 +1,5 @@
+After enrichment, all vulnerability data is indexed into OpenSearch.
+
+FastAPI exposes REST APIs that allow users to search vulnerabilities using CVE IDs, product names, severity, CWE, EPSS score, threat score, exploit availability, and various filters.
+
+Dashboard APIs also provide summary statistics and vulnerability analytics.

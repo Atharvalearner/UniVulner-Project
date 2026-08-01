@@ -1,0 +1,31 @@
+      External Threat Intelligence
+MITRE   NVD   EPSS   KEV   ExploitDB   GitHub
+                │
+                ▼
+      Collect & Synchronize
+                │
+                ▼
+      Normalize & Enrich Records
+                │
+                ▼
+      OpenSearch Vulnerability DB
+      ┌───────┴────────┐
+      ▼                    ▼
+Search & Analytics   Software Inventory Upload
+                              ▼
+                     CSV Validation & Parsing
+                              │
+                              ▼
+                     Inventory Normalization
+                              │
+                              ▼
+                     Correlation with OpenSearch
+                              │
+                              ▼
+                     Retrieve Matching Vulnerabilities
+                              │
+                              ▼
+                     Risk Assessment & Prioritization
+                              │
+                              ▼
+                     Vulnerability Assessment Report

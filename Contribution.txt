@@ -1,0 +1,5 @@
+My primary responsibility was the backend architecture and data processing pipeline. I implemented the data collection layer, normalization pipeline, enrichment process, OpenSearch integration, GitHub PoC correlation engine, and SBOM correlation workflow. I also worked on Docker-based deployment, Terraform infrastructure provisioning, GitHub Actions CI/CD, and integrated Bandit and OWASP ZAP for security testing.
+
+OR 
+
+My primary contribution was designing and implementing the threat intelligence ingestion pipeline, normalization and enrichment workflow, OpenSearch indexing and search integration, GitHub Proof-of-Concept correlation engine, SBOM-based vulnerability assessment workflow, and deployment automation using Docker, Terraform, and GitHub Actions.
