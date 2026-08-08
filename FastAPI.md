@@ -87,3 +87,15 @@ Threat Intelligence   SBOM Module
 
 We implemented RESTful APIs that exchange data in JSON format using standard HTTP methods such as GET and POST.
 
+
+
+**# How does FastAPI communicate with OpenSearch?**
+
+We used the official OpenSearch Python client (opensearch-py) for communication between FastAPI and OpenSearch. When a request arrives, FastAPI validates it and invokes the repository layer. The repository constructs the appropriate search or indexing request and calls the OpenSearch client. The client internally sends REST API requests over HTTP to the OpenSearch server and returns the JSON response as Python objects. This approach abstracts the low-level HTTP communication, provides built-in error handling and connection management, and keeps the application code clean and modular.
+
+
+
+**# Did FastAPI communicate with OpenSearch directly?**
+
+Not directly. FastAPI handled the API requests and delegated database operations to our OpenSearchRepository. The repository used the official OpenSearch Python client (opensearch-py) to communicate with the OpenSearch server over REST APIs.
+
